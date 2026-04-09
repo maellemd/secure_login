@@ -3,6 +3,12 @@
 A small authentication app built with Flask.  
 The goal was to go beyond a basic tutorial and handle proper password hashing, CSRF protection and secure session configuration.
 
+## Screenshots
+
+| Login | Register |
+|---|---|
+| ![Login page](login.png) | ![Register page](register.png) |
+
 ## Features
 - User registration and login
 - Passwords hashed with **bcrypt** (salted, never stored in plaintext)
@@ -24,8 +30,8 @@ The goal was to go beyond a basic tutorial and handle proper password hashing, C
 
 ```bash
 # 1. Clone and move in
-git clone https://github.com/YOUR_USERNAME/secure-login.git
-cd secure-login
+git clone https://github.com/maellemd/secure_login.git
+cd secure_login
 
 # 2. Create a virtual environment
 python -m venv venv
@@ -46,7 +52,7 @@ Open `http://127.0.0.1:5000` in your browser.
 ## Project structure
 
 ```
-secure-login/
+secure_login/
 ├── app.py                  # all routes and logic
 ├── requirements.txt
 ├── static/
